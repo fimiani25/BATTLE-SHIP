@@ -1,5 +1,6 @@
 //battle ship
 //2 giocatori E COM
+//ci sono alcune funzioni solo per win10
 #include<iostream>
 #include<string.h>
 #include<ctime>		//rand
@@ -669,7 +670,7 @@ system("TITLE   BATTLE SHIP");
 	if(ngiocatori==1){
 	while(dif<1 || dif>10){
 	system("cls");
-	cout<<"scegli difficolta' 1-10"<<endl;           //difficoltà
+	cout<<"scegli difficolta' 1-10"<<endl;           //difficoltÃ 
 	cin>>dif;}
 	}	
 		system("cls");
